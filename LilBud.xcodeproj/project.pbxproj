@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E9954EC02B3E7F020006AE40 /* LilBudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9954EBF2B3E7F020006AE40 /* LilBudApp.swift */; };
 		E9954EC22B3E7F020006AE40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9954EC12B3E7F020006AE40 /* ContentView.swift */; };
 		E9954EC42B3E7F030006AE40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9954EC32B3E7F030006AE40 /* Assets.xcassets */; };
 		E9954EC72B3E7F030006AE40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9954EC62B3E7F030006AE40 /* Preview Assets.xcassets */; };
-		E9954ED22B3E7F040006AE40 /* LilBudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9954ED12B3E7F040006AE40 /* LilBudTests.swift */; };
-		E9954EDC2B3E7F040006AE40 /* LilBudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9954EDB2B3E7F040006AE40 /* LilBudUITests.swift */; };
-		E9954EDE2B3E7F040006AE40 /* LilBudUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9954EDD2B3E7F040006AE40 /* LilBudUITestsLaunchTests.swift */; };
+		E9954EEB2B3E7F220006AE40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9954EEA2B3E7F220006AE40 /* AppDelegate.swift */; };
+		E9954EED2B3E7F330006AE40 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9954EEC2B3E7F330006AE40 /* StatusBarController.swift */; };
+		E9954EF02B3E7FD10006AE40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9954EEE2B3E7FD10006AE40 /* Main.storyboard */; };
+		E9954EF22B3E80360006AE40 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9954EF12B3E80360006AE40 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,16 +35,16 @@
 
 /* Begin PBXFileReference section */
 		E9954EBC2B3E7F020006AE40 /* LilBud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LilBud.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9954EBF2B3E7F020006AE40 /* LilBudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilBudApp.swift; sourceTree = "<group>"; };
 		E9954EC12B3E7F020006AE40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9954EC32B3E7F030006AE40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9954EC62B3E7F030006AE40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9954EC82B3E7F030006AE40 /* LilBud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LilBud.entitlements; sourceTree = "<group>"; };
 		E9954ECD2B3E7F040006AE40 /* LilBudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LilBudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9954ED12B3E7F040006AE40 /* LilBudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilBudTests.swift; sourceTree = "<group>"; };
 		E9954ED72B3E7F040006AE40 /* LilBudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LilBudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9954EDB2B3E7F040006AE40 /* LilBudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilBudUITests.swift; sourceTree = "<group>"; };
-		E9954EDD2B3E7F040006AE40 /* LilBudUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilBudUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9954EEA2B3E7F220006AE40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9954EEC2B3E7F330006AE40 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		E9954EEF2B3E7FD10006AE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../MacOSMenuBarWeatherApp/WeatherApp/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9954EF12B3E80360006AE40 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../MacOSMenuBarWeatherApp/WeatherApp/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +75,8 @@
 		E9954EB32B3E7F020006AE40 = {
 			isa = PBXGroup;
 			children = (
+				E9954EC52B3E7F030006AE40 /* Preview Content */,
 				E9954EBE2B3E7F020006AE40 /* LilBud */,
-				E9954ED02B3E7F040006AE40 /* LilBudTests */,
-				E9954EDA2B3E7F040006AE40 /* LilBudUITests */,
 				E9954EBD2B3E7F020006AE40 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,11 +94,13 @@
 		E9954EBE2B3E7F020006AE40 /* LilBud */ = {
 			isa = PBXGroup;
 			children = (
-				E9954EBF2B3E7F020006AE40 /* LilBudApp.swift */,
+				E9954EEA2B3E7F220006AE40 /* AppDelegate.swift */,
 				E9954EC12B3E7F020006AE40 /* ContentView.swift */,
+				E9954EEC2B3E7F330006AE40 /* StatusBarController.swift */,
+				E9954EEE2B3E7FD10006AE40 /* Main.storyboard */,
+				E9954EF12B3E80360006AE40 /* Info.plist */,
 				E9954EC32B3E7F030006AE40 /* Assets.xcassets */,
 				E9954EC82B3E7F030006AE40 /* LilBud.entitlements */,
-				E9954EC52B3E7F030006AE40 /* Preview Content */,
 			);
 			path = LilBud;
 			sourceTree = "<group>";
@@ -110,23 +111,6 @@
 				E9954EC62B3E7F030006AE40 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		E9954ED02B3E7F040006AE40 /* LilBudTests */ = {
-			isa = PBXGroup;
-			children = (
-				E9954ED12B3E7F040006AE40 /* LilBudTests.swift */,
-			);
-			path = LilBudTests;
-			sourceTree = "<group>";
-		};
-		E9954EDA2B3E7F040006AE40 /* LilBudUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E9954EDB2B3E7F040006AE40 /* LilBudUITests.swift */,
-				E9954EDD2B3E7F040006AE40 /* LilBudUITestsLaunchTests.swift */,
-			);
-			path = LilBudUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +217,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9954EF22B3E80360006AE40 /* Info.plist in Resources */,
+				E9954EF02B3E7FD10006AE40 /* Main.storyboard in Resources */,
 				E9954EC72B3E7F030006AE40 /* Preview Assets.xcassets in Resources */,
 				E9954EC42B3E7F030006AE40 /* Assets.xcassets in Resources */,
 			);
@@ -259,8 +245,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9954EEB2B3E7F220006AE40 /* AppDelegate.swift in Sources */,
+				E9954EED2B3E7F330006AE40 /* StatusBarController.swift in Sources */,
 				E9954EC22B3E7F020006AE40 /* ContentView.swift in Sources */,
-				E9954EC02B3E7F020006AE40 /* LilBudApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +255,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9954ED22B3E7F040006AE40 /* LilBudTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9954EDE2B3E7F040006AE40 /* LilBudUITestsLaunchTests.swift in Sources */,
-				E9954EDC2B3E7F040006AE40 /* LilBudUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +279,17 @@
 			targetProxy = E9954ED82B3E7F040006AE40 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9954EEE2B3E7FD10006AE40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9954EEF2B3E7FD10006AE40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E9954EDF2B3E7F040006AE40 /* Debug */ = {
@@ -424,7 +419,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LilBud/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -449,7 +443,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LilBud/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
