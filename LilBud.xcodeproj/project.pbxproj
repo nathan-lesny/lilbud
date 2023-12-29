@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9954EC02B3E7F020006AE40 /* LilBudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9954EBF2B3E7F020006AE40 /* LilBudApp.swift */; };
+		E9954EC22B3E7F020006AE40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9954EC12B3E7F020006AE40 /* ContentView.swift */; };
+		E9954EC42B3E7F030006AE40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9954EC32B3E7F030006AE40 /* Assets.xcassets */; };
+		E9954EC72B3E7F030006AE40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9954EC62B3E7F030006AE40 /* Preview Assets.xcassets */; };
+		E9954ED22B3E7F040006AE40 /* LilBudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9954ED12B3E7F040006AE40 /* LilBudTests.swift */; };
+		E9954EDC2B3E7F040006AE40 /* LilBudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9954EDB2B3E7F040006AE40 /* LilBudUITests.swift */; };
+		E9954EDE2B3E7F040006AE40 /* LilBudUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9954EDD2B3E7F040006AE40 /* LilBudUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9954ECE2B3E7F040006AE40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9954EB42B3E7F020006AE40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9954EBB2B3E7F020006AE40;
+			remoteInfo = LilBud;
+		};
+		E9954ED82B3E7F040006AE40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9954EB42B3E7F020006AE40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9954EBB2B3E7F020006AE40;
+			remoteInfo = LilBud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9954EBC2B3E7F020006AE40 /* LilBud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LilBud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9954EBF2B3E7F020006AE40 /* LilBudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilBudApp.swift; sourceTree = "<group>"; };
+		E9954EC12B3E7F020006AE40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9954EC32B3E7F030006AE40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9954EC62B3E7F030006AE40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9954EC82B3E7F030006AE40 /* LilBud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LilBud.entitlements; sourceTree = "<group>"; };
+		E9954ECD2B3E7F040006AE40 /* LilBudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LilBudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9954ED12B3E7F040006AE40 /* LilBudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilBudTests.swift; sourceTree = "<group>"; };
+		E9954ED72B3E7F040006AE40 /* LilBudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LilBudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9954EDB2B3E7F040006AE40 /* LilBudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilBudUITests.swift; sourceTree = "<group>"; };
+		E9954EDD2B3E7F040006AE40 /* LilBudUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilBudUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9954EB92B3E7F020006AE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9954ECA2B3E7F040006AE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9954ED42B3E7F040006AE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9954EB32B3E7F020006AE40 = {
+			isa = PBXGroup;
+			children = (
+				E9954EBE2B3E7F020006AE40 /* LilBud */,
+				E9954ED02B3E7F040006AE40 /* LilBudTests */,
+				E9954EDA2B3E7F040006AE40 /* LilBudUITests */,
+				E9954EBD2B3E7F020006AE40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9954EBD2B3E7F020006AE40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9954EBC2B3E7F020006AE40 /* LilBud.app */,
+				E9954ECD2B3E7F040006AE40 /* LilBudTests.xctest */,
+				E9954ED72B3E7F040006AE40 /* LilBudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9954EBE2B3E7F020006AE40 /* LilBud */ = {
+			isa = PBXGroup;
+			children = (
+				E9954EBF2B3E7F020006AE40 /* LilBudApp.swift */,
+				E9954EC12B3E7F020006AE40 /* ContentView.swift */,
+				E9954EC32B3E7F030006AE40 /* Assets.xcassets */,
+				E9954EC82B3E7F030006AE40 /* LilBud.entitlements */,
+				E9954EC52B3E7F030006AE40 /* Preview Content */,
+			);
+			path = LilBud;
+			sourceTree = "<group>";
+		};
+		E9954EC52B3E7F030006AE40 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E9954EC62B3E7F030006AE40 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9954ED02B3E7F040006AE40 /* LilBudTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9954ED12B3E7F040006AE40 /* LilBudTests.swift */,
+			);
+			path = LilBudTests;
+			sourceTree = "<group>";
+		};
+		E9954EDA2B3E7F040006AE40 /* LilBudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9954EDB2B3E7F040006AE40 /* LilBudUITests.swift */,
+				E9954EDD2B3E7F040006AE40 /* LilBudUITestsLaunchTests.swift */,
+			);
+			path = LilBudUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9954EBB2B3E7F020006AE40 /* LilBud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9954EE12B3E7F040006AE40 /* Build configuration list for PBXNativeTarget "LilBud" */;
+			buildPhases = (
+				E9954EB82B3E7F020006AE40 /* Sources */,
+				E9954EB92B3E7F020006AE40 /* Frameworks */,
+				E9954EBA2B3E7F020006AE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LilBud;
+			productName = LilBud;
+			productReference = E9954EBC2B3E7F020006AE40 /* LilBud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9954ECC2B3E7F040006AE40 /* LilBudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9954EE42B3E7F040006AE40 /* Build configuration list for PBXNativeTarget "LilBudTests" */;
+			buildPhases = (
+				E9954EC92B3E7F040006AE40 /* Sources */,
+				E9954ECA2B3E7F040006AE40 /* Frameworks */,
+				E9954ECB2B3E7F040006AE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9954ECF2B3E7F040006AE40 /* PBXTargetDependency */,
+			);
+			name = LilBudTests;
+			productName = LilBudTests;
+			productReference = E9954ECD2B3E7F040006AE40 /* LilBudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9954ED62B3E7F040006AE40 /* LilBudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9954EE72B3E7F040006AE40 /* Build configuration list for PBXNativeTarget "LilBudUITests" */;
+			buildPhases = (
+				E9954ED32B3E7F040006AE40 /* Sources */,
+				E9954ED42B3E7F040006AE40 /* Frameworks */,
+				E9954ED52B3E7F040006AE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9954ED92B3E7F040006AE40 /* PBXTargetDependency */,
+			);
+			name = LilBudUITests;
+			productName = LilBudUITests;
+			productReference = E9954ED72B3E7F040006AE40 /* LilBudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9954EB42B3E7F020006AE40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					E9954EBB2B3E7F020006AE40 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					E9954ECC2B3E7F040006AE40 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = E9954EBB2B3E7F020006AE40;
+					};
+					E9954ED62B3E7F040006AE40 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = E9954EBB2B3E7F020006AE40;
+					};
+				};
+			};
+			buildConfigurationList = E9954EB72B3E7F020006AE40 /* Build configuration list for PBXProject "LilBud" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9954EB32B3E7F020006AE40;
+			productRefGroup = E9954EBD2B3E7F020006AE40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9954EBB2B3E7F020006AE40 /* LilBud */,
+				E9954ECC2B3E7F040006AE40 /* LilBudTests */,
+				E9954ED62B3E7F040006AE40 /* LilBudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9954EBA2B3E7F020006AE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9954EC72B3E7F030006AE40 /* Preview Assets.xcassets in Resources */,
+				E9954EC42B3E7F030006AE40 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9954ECB2B3E7F040006AE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9954ED52B3E7F040006AE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9954EB82B3E7F020006AE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9954EC22B3E7F020006AE40 /* ContentView.swift in Sources */,
+				E9954EC02B3E7F020006AE40 /* LilBudApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9954EC92B3E7F040006AE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9954ED22B3E7F040006AE40 /* LilBudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9954ED32B3E7F040006AE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9954EDE2B3E7F040006AE40 /* LilBudUITestsLaunchTests.swift in Sources */,
+				E9954EDC2B3E7F040006AE40 /* LilBudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9954ECF2B3E7F040006AE40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9954EBB2B3E7F020006AE40 /* LilBud */;
+			targetProxy = E9954ECE2B3E7F040006AE40 /* PBXContainerItemProxy */;
+		};
+		E9954ED92B3E7F040006AE40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9954EBB2B3E7F020006AE40 /* LilBud */;
+			targetProxy = E9954ED82B3E7F040006AE40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E9954EDF2B3E7F040006AE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9954EE02B3E7F040006AE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E9954EE22B3E7F040006AE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LilBud/LilBud.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LilBud/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LilBud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E9954EE32B3E7F040006AE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LilBud/LilBud.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LilBud/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LilBud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E9954EE52B3E7F040006AE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LilBudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LilBud.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LilBud";
+			};
+			name = Debug;
+		};
+		E9954EE62B3E7F040006AE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LilBudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LilBud.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LilBud";
+			};
+			name = Release;
+		};
+		E9954EE82B3E7F040006AE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LilBudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LilBud;
+			};
+			name = Debug;
+		};
+		E9954EE92B3E7F040006AE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LilBudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LilBud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9954EB72B3E7F020006AE40 /* Build configuration list for PBXProject "LilBud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9954EDF2B3E7F040006AE40 /* Debug */,
+				E9954EE02B3E7F040006AE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9954EE12B3E7F040006AE40 /* Build configuration list for PBXNativeTarget "LilBud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9954EE22B3E7F040006AE40 /* Debug */,
+				E9954EE32B3E7F040006AE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9954EE42B3E7F040006AE40 /* Build configuration list for PBXNativeTarget "LilBudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9954EE52B3E7F040006AE40 /* Debug */,
+				E9954EE62B3E7F040006AE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9954EE72B3E7F040006AE40 /* Build configuration list for PBXNativeTarget "LilBudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9954EE82B3E7F040006AE40 /* Debug */,
+				E9954EE92B3E7F040006AE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9954EB42B3E7F020006AE40 /* Project object */;
+}
